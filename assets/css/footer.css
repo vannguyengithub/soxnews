@@ -1,0 +1,32 @@
+.socail ul {
+    padding-left: 0;
+}
+.socail ul li {
+    background: #000;
+    border-radius: 4px;
+    padding: 4px 8px 8px 8px;
+    color: #fff;
+}
+.socail ul li a {
+    color: #fff;
+}
+.footer-text{
+    font-size: 14px;
+    color: #000;
+}
+.footer-center ul {
+    padding-left: 0;
+}
+.footer-center li a{
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+}
+.footer-bottom li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+}
+.footer-bottom  {
+    padding-left: 0;
+}

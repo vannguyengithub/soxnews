@@ -1,0 +1,37 @@
+.country {
+    display: grid;
+    align-items: center;
+    gap: 16px;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+.country__item {
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    overflow: hidden;
+    padding: 4px;
+    /* width: calc(100% / 6); */
+}
+.country__item .fs-6 {
+    font-size: 12px !important;
+}
+.box-top {
+    text-decoration: none;
+    list-style: none;
+    color: #000;
+    font-size: 12px;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+@media (max-width: 768px) {
+    .country {
+        grid-template-columns: auto auto;
+    }
+    .box-top {
+        margin-bottom: 10px;
+    }
+    .custom-box-mobile {
+        flex-direction: column-reverse;
+    }
+}
